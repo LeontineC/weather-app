@@ -1,0 +1,90 @@
+.containerForecast {
+  position: absolute;
+  top: 1%;
+  left: 70%;
+  min-width: 19vw;
+  margin: 5.5% auto;
+  overflow: auto;
+  max-height: 69%;
+  border: rgb(38, 57, 77);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 820px) {
+  .containerForecast { 
+    left: 65%;
+  }
+} 
+
+@media screen and (max-width: 770px) {
+    .containerForecast {
+        top: 80%;
+        left: 35%;
+    }
+} 
+
+.accordion {
+    width: 100%;
+    background-color: transparent;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+
+.accordion::-webkit-scrollbar {
+    width: 15px;
+}
+  
+  
+  .accordion::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(233, 232, 232); 
+    border-radius: 5px;
+  }
+
+   .accordion::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+  }
+
+  .accordion::-webkit-scrollbar-thumb:hover {
+    background:transparent;
+    box-shadow: inset 0 0 5px rgb(233, 232, 232); 
+  }
+
+.titleIcons {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 15px;
+        margin-top: 2.3em; 
+        cursor: pointer;
+        font-size: 12px;
+        height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .titleIcons {
+       margin-top: 1.6em;
+    }
+}
+
+.content {
+    padding: 1.45%;
+    background-color: rgb(71, 140, 180);
+    font-size: 10px;
+    word-spacing: 10px;
+    letter-spacing: .3px;
+}
+
+
+    
+    
+    
+    
+    
